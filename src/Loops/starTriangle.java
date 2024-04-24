@@ -6,12 +6,12 @@ public class starTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows.");
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n-i; j++) {
+        int rows = sc.nextInt();
+        for (int stars = 1; stars <= rows; stars++) {
+            for (int spaces = 1; spaces <= rows-stars; spaces++) {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= 2*i-1; k++) {
+            for (int rightSideStars = 1; rightSideStars <= 2*stars-1; rightSideStars++) {
                 System.out.print("*");
             }
             System.out.println();
