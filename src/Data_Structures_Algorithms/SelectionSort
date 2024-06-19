@@ -1,0 +1,63 @@
+Başlangıç dizisi: [22, 27, 16, 2, 18, 6]
+
+Adım:
+
+İlk eleman tek başına sıralı kabul edilir: [22, 27, 16, 2, 18, 6]
+27 elemanı 22'nin arkasına yerleşir (zaten sıralı): [22, 27, 16, 2, 18, 6]
+Adım:
+
+16 elemanını sıralı kısmın içine yerleştirir:
+16, 27'den küçüktür, yer değiştirir: [22, 16, 27, 2, 18, 6]
+16, 22'den küçüktür, yer değiştirir: [16, 22, 27, 2, 18, 6]
+Adım:
+
+2 elemanını sıralı kısmın içine yerleştirir:
+2, 27'den küçüktür, yer değiştirir: [16, 22, 2, 27, 18, 6]
+2, 22'den küçüktür, yer değiştirir: [16, 2, 22, 27, 18, 6]
+2, 16'dan küçüktür, yer değiştirir: [2, 16, 22, 27, 18, 6]
+Adım:
+
+18 elemanını sıralı kısmın içine yerleştirir:
+18, 27'den küçüktür, yer değiştirir: [2, 16, 22, 18, 27, 6]
+18, 22'den küçüktür, yer değiştirir: [2, 16, 18, 22, 27, 6]
+Adım:
+
+6 elemanını sıralı kısmın içine yerleştirir:
+6, 27'den küçüktür, yer değiştirir: [2, 16, 18, 22, 6, 27]
+6, 22'den küçüktür, yer değiştirir: [2, 16, 18, 6, 22, 27]
+6, 18'den küçüktür, yer değiştirir: [2, 16, 6, 18, 22, 27]
+6, 16'dan küçüktür, yer değiştirir: [2, 6, 16, 18, 22, 27]
+Sonuç:
+Sıralı dizi: [2, 6, 16, 18, 22, 27]
+
+Big-O Gösterimi
+Insertion Sort algoritmasının zaman karmaşıklığı:
+
+En kötü durumda (ters sıralı dizi):
+𝑂(𝑛2)
+En iyi durumda (zaten sıralı dizi):
+𝑂(𝑛)
+Ortalama durumda:
+𝑂(𝑛2)
+18 Sayısının Durumu
+Sıralandıktan sonra dizi: [2, 6, 16, 18, 22, 27]
+
+18 sayısı ortadadır, bu nedenle Average case kapsamına girer.
+Selection Sort İlk 4 Adımı
+Başlangıç dizisi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+1. Adım:
+-En küçük eleman bulunur ve ilk pozisyondaki elemanla yer değiştirilir:
+-2 en küçük elemandır, 7 ile yer değiştirilir: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+2. Adım:
+-Kalan dizideki en küçük eleman bulunur ve ikinci pozisyondaki elemanla yer değiştirilir:
+-3 en küçük elemandır, yer değiştirme yapılmaz: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+
+3. Adım:
+-Kalan dizideki en küçük eleman bulunur ve üçüncü pozisyondaki elemanla yer değiştirilir:
+-4 en küçük elemandır, 5 ile yer değiştirilir: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+
+4. Adım:
+-Kalan dizideki en küçük eleman bulunur ve dördüncü pozisyondaki elemanla yer değiştirilir:
+-5 en küçük elemandır, 8 ile yer değiştirilir: [2, 3, 4, 5, 7, 9, 8, 15, 6]
