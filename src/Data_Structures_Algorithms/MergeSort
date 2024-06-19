@@ -1,0 +1,48 @@
+Başlangıç dizisi: [16, 21, 11, 8, 12, 22]
+
+Diziyi ikiye bölme:
+
+Sol kısım: [16, 21, 11]
+Sağ kısım: [8, 12, 22]
+Sol kısmı ikiye bölme:
+
+Sol kısım: [16]
+Sağ kısım: [21, 11]
+[21, 11] kısmını ikiye bölme:
+
+Sol kısım: [21]
+Sağ kısım: [11]
+Alt dizileri birleştirerek sıralama:
+
+[21] ve [11] birleştirilir ve sıralanır: [11, 21]
+[16] ve [11, 21] kısmını birleştirerek sıralama:
+
+[16] ve [11, 21] birleştirilir ve sıralanır: [11, 16, 21]
+Sağ kısmı ikiye bölme:
+
+Sol kısım: [8]
+Sağ kısım: [12, 22]
+[12, 22] kısmını ikiye bölme:
+
+Sol kısım: [12]
+Sağ kısım: [22]
+Alt dizileri birleştirerek sıralama:
+
+[12] ve [22] birleştirilir ve sıralanır: [12, 22]
+[8] ve [12, 22] kısmını birleştirerek sıralama:
+
+[8] ve [12, 22] birleştirilir ve sıralanır: [8, 12, 22]
+Son olarak iki büyük kısmı birleştirerek sıralama:
+
+[11, 16, 21] ve [8, 12, 22] birleştirilir ve sıralanır: [8, 11, 12, 16, 21, 22]
+Sonuç: Sıralı dizi: [8, 11, 12, 16, 21, 22]
+
+Big-O Gösterimi
+Merge Sort algoritmasının zaman karmaşıklığı:
+
+En iyi durum:
+𝑂(𝑛log n)
+Ortalama durum:
+𝑂(𝑛 log 𝑛)
+En kötü durum:
+𝑂(𝑛 log 𝑛)
