@@ -1,0 +1,1 @@
+This repository is a space where i tried to recreate what i have learned during my tenure at university. There are some basic projects and self-study materials in this repository. I try to re-iterate what i have learned by continuous practicing.
