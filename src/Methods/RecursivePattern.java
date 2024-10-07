@@ -11,6 +11,6 @@ public class RecursivePattern {
     }
 
     public static void main(String[] args) {
-        recursivePattern(12);
+        recursivePattern(100);
     }
 }

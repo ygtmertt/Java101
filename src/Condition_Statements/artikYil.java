@@ -1,3 +1,5 @@
+package Condition_Statements;
+
 import java.util.Scanner;
 
 public class artikYil {

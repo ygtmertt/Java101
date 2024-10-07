@@ -1,5 +1,7 @@
+package Basic_Concepts;
+
 import java.util.Scanner;
-public class DaireninAlaniCevresi {
+public class daireninAlaniCevresi {
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
         System.out.println("Yarıçapı giriniz");

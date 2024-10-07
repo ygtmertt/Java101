@@ -1,3 +1,5 @@
+package Condition_Statements;
+
 import java.util.Scanner;
 
 public class burcBulma {
@@ -132,7 +134,7 @@ public class burcBulma {
                     break;
                 }
                 else {
-                    System.out.println("Geçersiz bir gün girdiniz.");
+                    System.out.println("Geçersiz bir tarih girdiniz.");
                 }
                 break;
             case 10:

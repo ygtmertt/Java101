@@ -7,13 +7,13 @@ public class AsalSayi {
         for (int sayi = 2; sayi <= 100; sayi++) {
             boolean asal = true;  // Başta sayının asal olduğunu kabul edelim. (2 asal sayıdır)
             for (int i = 2; i <= Math.sqrt(sayi); i++) {
-                if(sayi % i == 0) {
+                if (sayi % i == 0) {
                     asal = false;
                     break;
                 }
             }
             if (asal) {
-                System.out.println(sayi+" ");
+                System.out.println(sayi + " ");
             }
         }
     }

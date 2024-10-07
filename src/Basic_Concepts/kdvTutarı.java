@@ -1,6 +1,8 @@
+package Basic_Concepts;
+
 import java.util.Scanner;
 
-public class KDV_Tutarı {
+public class kdvTutarı {
     public static void main(String[] args) {
         double kdvTutarı;
         Scanner sc = new Scanner(System.in);

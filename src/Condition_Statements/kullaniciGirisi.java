@@ -1,3 +1,5 @@
+package Condition_Statements;
+
 import java.util.Scanner;
 public class kullaniciGirisi {
     public static void main(String[] args) {

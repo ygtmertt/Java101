@@ -1,3 +1,5 @@
+package Basic_Concepts;
+
 import java.util.Scanner;
 public class vucutKutleIndeksi {
     public static void main(String[] args) {
